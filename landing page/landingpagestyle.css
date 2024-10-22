@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+#top{
+    
+    width: 100%;
+    min-height: 55vh;
+
+    background-image: url(studio-pizza-hJ8TEm04cfw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.238);
+}
+#text{
+    width: 100%;
+    bottom: 35%;
+    position: absolute;
+    padding: 0 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+#text h1{   
+    font-size: 4vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(255, 255, 255);
+     font-style: italic;
+}
+#textright{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    color: white;
+}
+#textright p{
+    width: 40%;
+    font-size: 12px;
+}
+#bottom{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+}
+#bone{
+    width: 25%;
+    background-color:rgb(245, 245, 245);
+    min-height: inherit;
+    padding: 20px;
+}
+#bone h3{
+    margin-top: 15px;
+}
+#bone p{
+    margin-top: 25px;
+}
+#btwo{
+    width: 25%;
+    background-image: url(patrick-EBoT0ZFEdfI-unsplash.jpg);
+    background-position: 25% 40%;
+    background-size: cover;
+    min-height: inherit;
+    align-items: center;
+    text-decoration: none;
+}
+#playz{
+    font-size: 70px;
+    margin-left: 42%;
+    margin-top: 48%;
+    color: rgb(225, 220, 220);  
+
+}
+#bthree{
+    width: 25%;
+    min-height: inherit;
+}
+#bfour{
+    width: 25%;
+    
+    min-height: inherit;
+    background-image: url(Screenshot\ 2024-10-20\ at\ 2.12.44\ AM.png);
+    background-size: cover;
+}
+#b3top{
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(185, 185, 181);
+    padding: 20px;
+    text-align: left;
+    
+}
+#b3top p{
+    font-size: 13px;
+    margin-top: 6px;
+}
+#b3bottom{
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(chris-bznawBAIpFI-unsplash.jpg);
+    background-position: 50% 60%;
+    background-size: cover;
+    
+
+}
+@media(max-width: 500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #text h1{
+        font-size: 7vw;
+    }
+    #overlay #text #textright{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+
+    }
+    #overlay #text #textright #icons{
+        margin-top: 30px;
+    }
+    #bottom{
+        flex-direction: column;
+        min-height: 20vh;
+    }
+    #bone{
+        width: 100%;
+    }
+    #btwo{
+        width: 100%;
+    }
+    #bthree{
+        flex-direction: column;
+        width: 100%;
+    }
+    #bfour{
+        width: 100%;
+    }
+}
